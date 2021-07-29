@@ -1,0 +1,78 @@
+
+
+
+
+
+
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(218, 206, 200);
+}
+
+.container *{
+    display: block;
+    padding: 2% 5%;
+}
+.container{
+    width: 32vw;
+    height: 67vh;
+    margin: 10% 40%;
+    border: inset 2px groove rgb(123, 123, 245);
+    background: linear-gradient(to left, rgb(10, 82, 238),rgb(20, 16, 83), rgb(0, 0, 0));
+    color: rgb(251, 251, 253);
+    font-size: 150%;
+    border-radius: 1%;
+    -webkit-border-radius: 5%;
+    padding: 3%;
+}
+input{
+    background: linear-gradient(to right, rgb(10, 82, 238),rgb(20, 16, 83), rgb(0, 0, 0));
+    border:inset 2px groove rgb(117, 117, 117);
+    color: wheat;
+}
+button{
+    width: 9vw;
+    margin: 7% 2%;
+    display: inline !important;
+    background: linear-gradient(to top, rgb(10, 82, 238),rgb(20, 16, 83), rgb(0, 0, 0));
+    border:inset 2px groove rgb(117, 117, 117);
+    color: wheat;
+}
+
+
+
+.fgPass-btn{
+    width: 18vw;
+    height: 33px;
+    margin: 1% 22%;
+    /* display: inline !important; */
+    background: linear-gradient(to top, rgb(10, 82, 238),rgb(20, 16, 83), rgb(0, 0, 0));
+    border: inset 2px groove rgb(117, 117, 117);
+    color: wheat;
+
+}
+
+.google-btn{
+    height: 33px;
+    padding: 0%;
+    width: 18vw;
+    margin: 4% 22%;
+    /* display: inline !important; */
+    background: linear-gradient(to top, rgb(10, 82, 238),rgb(20, 16, 83), rgb(0, 0, 0));
+    border: inset 2px groove rgb(117, 117, 117);
+    color: wheat;
+}
+
+.google-btn p{
+    display: inline;
+}
+
+
+
+.google-img{
+    width: 14%;
+    margin: 1% -5%;
+    height: 18px;
+}
